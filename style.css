@@ -1,0 +1,103 @@
+/* height✔
+width✔
+background-color✔
+color
+font-size
+font-weight
+padding
+margin
+border
+px
+%
+rem
+em
+vh
+vw
+border-radius
+1rem = 16px
+ */
+
+
+ *{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+ }
+
+.family{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    width: 100%; 
+    background-color: rgb(92, 172, 61);
+}
+ .all{
+    padding: 0px 20px ;
+    color: #fff;
+    height: 90vh;
+    font-size: 4rem;
+    background-color: rgb(230, 155, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;    
+    
+ }
+ .name-1{
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(182, 93, 108);
+ }
+ .name-2{
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(182, 93, 108);
+ }
+ .name-3{
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(182, 93, 108);
+ }
+ .name-4{
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(182, 93, 108);
+ }
+ .name-5{
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(182, 93, 108);
+ }
+
+ .name-1:hover{
+    transition: all ease 0.8s;
+    background-color: rgb(105, 90, 90);
+    color: #000;
+ }
+ .name-2:hover{
+    transition: all ease 0.8s;
+    background-color: rgb(105, 90, 90);
+    color: #000;
+ }
+ .name-3:hover{
+    transition: all ease 0.8s;
+    background-color: rgb(105, 90, 90);
+    color: #000;
+ }
+ .name-4:hover{
+    transition: all ease 0.8s;
+    background-color: rgb(105, 90, 90);
+    color: #000;
+ }
+ .name-5:hover{
+    transition: all ease 0.8s;
+    background-color: rgb(105, 90, 90);
+    color: #000;
+ }
+ .family>p:hover{
+    transition: all ease 0.8s;
+    color: aliceblue;
+ }
